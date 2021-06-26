@@ -1,0 +1,43 @@
+ 
+ body{
+    background-color: #d1d1cb;
+} 
+
+.card{
+    background-image: url(../src/asserts/image/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+}
+
+
+
+.card-header h5{
+    font-size: 25px;
+
+}
+
+.adviceContainer{
+    min-width: 100px;
+    min-height: 100px;
+    /* background-color: red; */
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 0 15px 60px rgba(0,0,0,0.5);
+}
+
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa{
+    padding: 10px;
+    color: #000069;
+}
+
+.btnContainer{
+    margin-bottom: 30px;
+}
+
